@@ -1,5 +1,5 @@
 ## makeCacheMatrix function make a matrix object to cache the inverse matrix
-## input argument is a matrix
+## input argument is an invertible matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL #emptied to store inverse for future use
